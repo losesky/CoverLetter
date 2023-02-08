@@ -5,7 +5,7 @@ import streamlit as st
 
 # Step 1: Obtain OpenAI API key
 # openai.api_key = st.secrets["api_key"]
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def generate_cover_letter(prompt, model, temperature, max_tokens):
