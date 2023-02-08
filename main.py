@@ -4,8 +4,7 @@ import streamlit as st
 # import pyperclip
 
 # Step 1: Obtain OpenAI API key
-# openai.api_key = st.secrets["API_Key"]
-openai.api_key = "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"
+openai.api_key = st.secrets["API_Key"]
 
 
 def generate_cover_letter(prompt, model, temperature, max_tokens):
